@@ -7,6 +7,9 @@ class Runner:
         self.distance = 0
         self.speed = speed
 
+    def walk(self):
+        self.distance += self.speed
+    
     def run(self):
         self.distance += self.speed * 2
 
